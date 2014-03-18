@@ -116,7 +116,7 @@ function buildGruntConfiguration(grunt, source, callback){
     uglifyConfig = {};
 
   stylusConfig[path.join('dist','brick.css')] = [];
-  uglifyConfig[path.join('dist','brick.js')] = [];//[path.join(source,'x-tag-core','dist','x-tag-core.js')];
+  uglifyConfig[path.join('dist','brick.js')] = [];
 
   grunt.log.debug('spawning bower tasks');
 
